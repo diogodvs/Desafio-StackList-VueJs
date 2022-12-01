@@ -5,7 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="/dist/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'white-txt': '#EDEDED',
+              'white-900': '#ffffff',  
+              'black-400': '#27272A',
+              'black-700': '#121212',
+              'orange-100':'#9D4B00',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Merriweather', 'serif']
+      }
+          }
+        }
+      }
+    </script>
+    <title>Desafio Web 3.0</title>
   </head>
   <body>
     <noscript>
