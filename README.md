@@ -3,7 +3,7 @@
 - Link do protótipo:
 https://www.figma.com/file/kLwbzp5UBzbVBBUfgHlj8C/StackX?node-id=101%3A2
 
-- Instruções do desafio que deverá ser feito em Angular, React e Vue
+- Instruções do desafio que deverá ser feito em Vue.
 
  Requisitos:
 
